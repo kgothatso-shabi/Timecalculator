@@ -1,0 +1,3 @@
+# Runtime: nothing required. The app uses only the Python standard library (Tkinter).
+# Optional - lets the EMAIL button create the draft directly in classic Outlook:
+pywin32>=306; sys_platform == "win32"
